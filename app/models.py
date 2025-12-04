@@ -46,3 +46,38 @@ class WordDetails(Base):
     example_translation = Column(String(255))
     mnemonic_tip = Column(String(255))
 
+class QuizAnswerSubmit(BaseModel):
+    item_id: int
+    user_answer: str
+    group_id: int
+    user_id: int
+
+class QuizAnswerResponse(BaseModel):
+    is_correct: bool
+    correct_answer: str
+    user_answer: str
+    feedback: str
+
+class HintRequest(BaseModel):
+    item_id: int
+    # hint_level: int  # 1, 2, or 3
+    user_id: int
+
+class HintResponse(BaseModel):
+    item_id: int
+    hint: str
+
+class GroupItem(BaseModel):
+    item_id: int
+    spelling: str
+    summary_meaning: str
+    display_letter: str
+    display_order: int
+
+class WordDetail(BaseModel):
+    word_id: int
+    spelling: str
+    full_definition: str
+    example_sentence: str
+    example_translation: str
+    mnemonic_tip: str

@@ -1,4 +1,4 @@
--- CREATE DATABASE voka;
+CREATE DATABASE voka;
 
 use voka;
 
