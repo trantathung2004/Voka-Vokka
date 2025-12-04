@@ -4,6 +4,7 @@
   margin: 0 auto;
   width: 100%;
   box-sizing: border-box;
+  padding-bottom: 4rem; /* Extra space for footer */
 }
 
 .detail-header {
@@ -24,64 +25,92 @@
 .vocab-grid {
   display: flex;
   flex-direction: column;
-  background: var(--card-border);
-  border: 1px solid var(--card-border);
-  border-radius: 1rem;
-  overflow: hidden;
-  backdrop-filter: blur(var(--glass-blur));
+  gap: 1.5rem; /* Space between rows */
 }
 
-.grid-header {
-  display: none; /* Hidden for row layout, or adjust if you want headers */
-}
-
-/* Row wrapper for clickability */
+/* Row wrapper - now transparent and just for layout */
 .grid-row {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  gap: 1.5rem; /* Space between English and Korean bubbles */
   cursor: pointer;
-  transition: background 0.2s;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  transition: all 0.2s ease;
 }
 
-.grid-row:last-child {
-  border-bottom: none;
-}
-
-.grid-row:hover {
-  background: rgba(99, 102, 241, 0.1);
-}
-
+/* The bubbles */
 .grid-cell {
-  background: transparent; /* Changed from individual cell bg */
-  padding: 1.5rem;
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
+  border-radius: 1rem;
+  padding: 2rem; /* Increased padding for better bubble look */
   display: flex;
   align-items: center;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   color: #e2e8f0;
+  backdrop-filter: blur(var(--glass-blur));
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  position: relative; /* For absolute positioning of hint */
+}
+
+/* Hover effects - lift both bubbles when hovering the row */
+.grid-row:hover .grid-cell {
+  transform: translateY(-4px);
+  border-color: var(--primary-color);
+  background: rgba(30, 41, 59, 0.9);
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.2), 0 10px 10px -5px rgba(0, 0, 0, 0.1);
 }
 
 .grid-cell.english {
-  font-weight: 500;
   justify-content: center;
-  border-right: 1px solid rgba(255, 255, 255, 0.05);
+  font-weight: 600;
+  color: #fff;
+  background: rgba(99, 102, 241, 0.15); /* Slightly distinct bg for English */
 }
 
 .grid-cell.korean {
-  justify-content: space-between;
+  justify-content: center; /* Center the Korean word */
 }
 
 .korean-word {
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .hint-letter {
+  position: absolute;
+  right: 2rem; /* Match cell padding */
   color: #94a3b8;
-  font-family: monospace;
-  background: rgba(0, 0, 0, 0.2);
-  padding: 0.2rem 0.6rem;
-  border-radius: 0.4rem;
-  font-size: 0.9rem;
+  font-family: 'Courier New', monospace;
+  background: rgba(0, 0, 0, 0.3);
+  padding: 0.3rem 0.8rem;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  font-weight: 700;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Group Footer Styles */
+.group-footer {
+  margin-top: 4rem;
+  text-align: center;
+  padding: 2rem;
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 1rem;
+  border: 1px dashed rgba(255, 255, 255, 0.1);
+}
+
+.footer-en {
+  font-size: 1.5rem;
+  font-style: italic;
+  color: #fff;
+  margin: 0 0 0.5rem 0;
+  font-family: serif; /* Make it look like a quote */
+}
+
+.footer-kr {
+  font-size: 1.1rem;
+  color: #94a3b8;
+  margin: 0;
 }
 
 /* Modal Details Styles */

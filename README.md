@@ -19,7 +19,10 @@ Since we are not using Docker, you need to manually set up the MySQL database us
 1.  **Install MySQL Workbench**: Download and install MySQL Workbench 8.0 CE.
 2.  **Start MySQL Server**: Ensure your local MySQL server is running (often installed alongside Workbench or separately).
 3.  **Create Database and User**:
-    Open MySQL Workbench and connect to your local instance. Open a new query tab and run the `db_init.sql` script to create the necessary tables.
+    Open MySQL Workbench and connect to your local instance. 
+    Open a new query tab and run the `db_init.sql` script to create the necessary tables.
+4.  **Insert Test Data**:
+    Open a new query tab and run the `test_data.sql` script to insert test data into the database.
 
 ### 2. Backend Setup
 
