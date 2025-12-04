@@ -11,7 +11,7 @@ class Users(Base):
     hashed_password = Column(String(255))
     
 class Groups(Base):
-    __tablename__ = "groups"
+    __tablename__ = "group_list"
 
     group_id = Column(Integer, primary_key=True, index=True)
     group_number = Column(Integer, nullable=False)

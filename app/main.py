@@ -176,14 +176,14 @@ def submit_quiz(answer: QuizAnswerSubmit, db: db_dependency):
 def get_quiz_hint(request: HintRequest, db: db_dependency):
     word_context = helper_sql.get_word_details(request.item_id)
     #test only
-    word_context = {
-        "spelling": "apple",
-        "summary_meaning": "fruit",
-        "full_definition": "a round fruit with a smooth skin and a crisp texture",
-        "example_sentence": "I like to eat apples",
-        "example_translation": "나는 사과를 좋아해요",
-        "mnemonic_tip": "apple is a fruit",
-    }
+    # word_context = {
+    #     "spelling": "apple",
+    #     "summary_meaning": "fruit",
+    #     "full_definition": "a round fruit with a smooth skin and a crisp texture",
+    #     "example_sentence": "I like to eat apples",
+    #     "example_translation": "나는 사과를 좋아해요",
+    #     "mnemonic_tip": "apple is a fruit",
+    # }
     if not word_context:
         raise HTTPException(
             status_code=status.HTTP_404_NOT_FOUND,
