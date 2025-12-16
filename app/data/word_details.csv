@@ -1,0 +1,58 @@
+detail_id,word_id,full_definition,example_sentence,example_translation,mnemonic_tip
+1,1,탐욕스러운,He was a ruthless and greedy businessman.,그는 무자비하고 탐욕스러운 사업가였다.,  'Greedy' = Grab. Everything. Every Day. (매일 모든 것을 움켜쥐려는)
+2,2,배고픈,There are millions of hungry people throughout the world.,전 세계적으로 수백만 명의 배고픈 사람들이 있다.,  'Hungry' = Hunger (굶주림). 기본적인 단어로 직접 의미 연관.
+3,3,"열망하는, 열렬한",He is an avid admirer of horror movies.,그는 공포 영화의 열렬한 팬이다.,  'Avid' = Add + Video. 영상을 계속 추가해서 볼 정도로 열렬한.
+4,4,"풍부한, 많은",There's plenty more where that came from.,거기서 나온 것보다 훨씬 더 풍부하게 있다.,  'Plenty' = Full Plate. (가득 찬 접시를 연상하는) 풍부하고 많은 양.
+5,5,충분한,We have enough food for everyone.,우리는 모든 사람들을 위한 충분한 식량이 있다.,  'Enough' = End of Rough. 거친(Rough) 상황이 끝날(End) 만큼 충분한.
+6,6,부유한,Her investments have made her rich.,그녀의 투자는 그녀를 부유하게 만들었다.,  'Rich' = Reach. I. Can. Have. (내가 가질 수 있는 모든 것에 닿다)
+7,7,"게걸스러운, 대식하는",He had a voracious appetite for adventure and knowledge.,그는 모험과 지식에 대한 게걸스러운 욕구를 가지고 있었다.,  'Voracious' = Vora (Devour) + cious (Delicious). 맛있어서 게걸스럽게 먹는.
+8,8,배고파 죽을 지경인,"By the time dinner was ready, we were ravenous.","저녁 식사가 준비될 무렵, 우리는 배고파 죽을 지경이었다.",  'Ravenous' = Raven + Us. 큰까마귀처럼 우리 모두가 덤벼들 정도로 몹시 굶주린.
+9,9,"대식하는, 탐욕스러운",What ensued was one of the most gluttonous team dinners in the history of sport.,그 후에 이어진 것은 스포츠 역사상 가장 탐욕스러운 팀 저녁 식사 중 하나였다.,**  'Gluttenous'에는 'Gut'**이 들어간다. 너무 많이 먹어 **배(Gut)**가 나올 정도의.
+10,10,"약탈하는, 탐욕스러운","The world's poor are subject to the worst of climate change, brought about by rapacious development.",세계의 가난한 사람들은 탐욕스러운 개발로 인해 야기된 최악의 기후 변화에 시달리고 있다.,  'Rapacious' = RAPID + Grab. 빠르게 강탈하여 탐욕스러운.
+11,11,"포식성의, 약탈적인",Hawks are predatory and may pose a danger to rabbits.,매는 포식성이어서 토끼에게 위험을 가할 수 있다.,  'Predatory' = Predator. 포식자처럼 사냥하고 약탈적인.
+12,12,"잡식성의, 뭐든 먹는","Both are omnivorous, eating just about anything that moves.","둘 다 잡식성이며, 움직이는 거의 모든 것을 먹는다.",  'Omnivorous' = Omni (모든) + Vor (먹다). 모든 것을 먹는.
+13,13,"채워지지 않는, 탐욕스러운",Her desire for knowledge was insatiable.,지식에 대한 그녀의 욕망은 채워지지 않았다.,  'Insatiable' = IN (부정) + SATIATE (충분히 만족시키다). 만족시킬 수 없는.
+14,14,"억누를 수 없는, 탐욕스러운",Aquarius signs have an unquenchable thirst for knowledge.,물병자리 사람들은 지식에 대한 억누를 수 없는 갈증을 가지고 있다.,  'Un' (부정) + Quench (갈증을 해소하다). 해소할 수 없는.
+15,15,"탐내는, 탐욕스러운",The expensive car drew many covetous looks.,그 비싼 차는 많은 탐내는 시선들을 끌었다.,  'Covetous' = Cover + It. 남의 물건을 덮어서라도 탐내려는 욕심.
+16,16,"돼지 같은, 탐욕스러운",aristocratic contempt for the swinish multitude.,평민 대중에 대한 귀족의 돼지 같은 경멸.,  'Swine' (돼지) + ish. 돼지처럼 무례하고 탐욕스러운.
+17,17,"돼지 같은, 탐욕스러운",The ruling class became hoggishly self-indulgent.,지배 계층은 돼지처럼 방종하게 되었다.,  'Hog' (독차지하다) + ish. 물건을 독차지하는 돼지처럼 탐욕스러운.
+18,18,"늑대 같은, 탐욕스러운",After a few minutes he returned with a wolfish smile on his face.,몇 분 후 그는 늑대 같은 미소를 지으며 돌아왔다.,  'Wolf' (늑대) + ish. 늑대처럼 사납고 게걸스러운.
+19,19,게걸스러운,Watching your edacious uncle at an all-you-can-eat buffet would be an alarming experience.,무제한 뷔페에서 당신의 게걸스러운 삼촌을 보는 것은 놀라운 경험일 것이다.,  EDibly vorACIOUS = EDACIOUS. '먹을 수 있는' + '게걸스러운' → 게걸스러운.
+20,20,"굶주린, 탐욕스러운",The esurient bear made a habit of ravaging campgrounds.,굶주린 곰은 캠프장을 약탈하는 습관이 있었다.,  'Esurient' = Eat + Sure + Rent. (먹는 것만 확실히 하려는) 굶주린 사람.
+21,21,"탐욕, 강탈",All alike were subject to the rapacity of their gaolers.,모두가 간수들의 탐욕에 시달렸다.,  'Rapacious' (탐욕스러운)의 명사형. Rapid하게 빼앗으려는 탐욕.
+22,22,탐욕,The corporate world is plagued by avarice and a thirst for power.,기업 세계는 탐욕과 권력에 대한 갈증으로 고통받고 있다.,  Have a rice (avarice) pile so big that it shows up the greed. (쌀 더미를 연상하여 탐욕을 나타냄).
+23,23,"탐욕, 탐내는 마음",The only force great enough to motivate people is pure cupidity.,사람들을 이끄는 유일한 힘은 순수한 탐욕이다.,  'Cupidity' = CUP + IDLI + TEA. (너무 많은 것을 원하는 탐욕).
+24,24,"대식, 폭식",I pounced upon its literature owing to my bookish gulosity.,나는 책에 대한 대식 때문에 문학에 달려들었다.,  'Gulosity' = GULP (꿀꺽 삼키다) + OSITY. 꿀꺽 삼키는 폭식.
+25,25,폭음·폭식으로 고통받는,The crapulous teenagers stumbled around the party spilling whiskey.,폭음·폭식으로 고통받는 십대들이 술을 흘리면서 비틀거렸다.,  'Crapulous' = Crap + Full. '나쁜' 것으로 배가 가득 찬 상태.
+26,26,"잔뜩 먹은, 포식한","When thus gorged with food, they are exceedingly stupid.","음식으로 그렇게 잔뜩 먹으면, 그들은 극도로 둔해진다.",  'Gorge' (잔뜩 먹다)의 과거형. 음식을 잔뜩 먹어 목(Gorge)에 걸린 상태.
+27,27,"과식한, 배부른",The doctor warned the owners that their cat was severely overfed.,의사는 주인들에게 그들의 고양이가 심하게 과식했다고 경고했다.,  'Over' (과도하게) + Fed (먹이를 주다). 과도하게 먹이를 주어 과식한.
+28,28,"가득 찬, 충만한",The library was replete with rare and fascinating books.,그 도서관은 희귀하고 흥미로운 책들로 가득 차 있었다.,"  “When your plate is complete, it's replete!” (접시가 가득 차면 충만하다)."
+29,29,넘쳐흐르는,Books and papers overflowed his desk.,책과 서류들이 그의 책상을 넘쳐흐르고 있었다.,  'Over' (넘어) + Flow (흐르다). 넘쳐서 흐르는.
+30,30,"가득한, 충만한",The only explanation was that its tank was already brimful of water.,유일한 설명은 탱크가 이미 물로 가득 차 있었다는 것이었다.,  'Brim' (가장자리) + Full (가득 찬). 가장자리가 가득 찬.
+31,31,"가득 찬, 넘쳐흐르는",Her heart was brimming with happiness.,그녀의 마음은 행복으로 가득 차 있었다.,  'Brim' (가장자리) + Ing. 가장자리를 넘어설 듯 가득 찬.
+32,32,"토하다, 쏟아내다",The river disgorges into the ocean just south of the city.,그 강은 도시 바로 남쪽에서 바다로 토해낸다(쏟아낸다).,  Dis (제거) + Gorge (목구멍). 목구멍에서 제거하여 토해내다.
+33,33,"약탈, 강탈",The rapine and violence which the barbarians exercised interrupted the commerce.,야만인들이 행사한 약탈과 폭력은 상업을 방해했다.,  'Rape' (강탈)와 관련. 약탈 행위.
+34,34,"게걸스럽게 먹다, 삼키다",The lions devoured their prey.,사자들이 그들의 먹이를 게걸스럽게 먹어치웠다.,  after devout(금식) we devour (금식 후 게걸스럽게 먹다).
+35,35,"폭식하다, 게걸스럽게 먹다",The hungry baby is ready to gormandize his next bottle.,배고픈 아기는 다음 병을 게걸스럽게 먹을 준비가 되어 있다.,  GORMANdize = Gourmet + MAN. 미식가 남자가 체면 없이 폭식하다.
+36,36,술을 마시며 흥청거리다,My brother and his friends went out carousing last night.,내 남동생과 그의 친구들은 어젯밤 술을 마시며 흥청거렸다.,  'Carouse' = ROUSE (일으키다). 밤새 술을 마시며 흥을 일으키다.
+37,37,무절제한,The class of intemperate speech is much broader than the class of hate speech.,무절제한 연설의 범주는 혐오 발언의 범주보다 훨씬 넓다.,  'In' (부정) + Temperate (절제하는). 절제하지 않는.
+38,38,방종한,My one self-indulgence is going to the cinema once a month.,나의 유일한 **방종(자기만족)**은 한 달에 한 번 영화를 보러 가는 것이다.,  'Self' + Indulge (탐닉하다). 자신을 탐닉하게 내버려두는.
+39,39,방탕한,Further activity might dissipate the anger he felt.,더 활동하면 그가 느끼는 분노가 흩어지기를(사라지기를) 바랐다.,"  Dissipate = Disappear. (돈, 에너지가) 점차 사라지다."
+40,40,"삼키다, 섭취하다",The drug is more easily ingested in pill form.,그 약물은 알약 형태로 삼키기가 더 쉽다.,  'In' (안으로) + Gest (가져가다). 몸 안으로 가져가다/섭취하다.
+41,41,꿀꺽 삼키다,She told him not to gulp his food.,그녀는 그에게 음식을 꿀꺽 삼키지 말라고 말했다.,  'Gulp' = G.U.L.P. (액체를) 꿀꺽 삼키다.
+42,42,"폭음하다, 벌컥벌컥 마시다","Jason Kelce, shirtless and guzzling a beer.",제이슨 켈시가 셔츠를 벗은 채 맥주를 벌컥벌컥 마시고 있었다.,  'Guzzle' = GUTS. 배짱 있게 벌컥벌컥 마시다.
+43,43,게걸스럽게 마시다,"When you swill a liquid, there is a chance it might spill on you.","당신이 액체를 게걸스럽게 마실 때, 흘릴 가능성이 있다.","  When you swill a liquid, there is a chance it might spill on you. (마시다가 흘리다 - 게걸스럽게 마시는 행위)."
+44,44,과식하다,He'd been stuffing himself with snacks all afternoon.,그는 오후 내내 간식으로 과식했다.,  'Stuff' (채워 넣다) + Oneself (자신). 자신의 배를 채워 넣다.
+45,45,허겁지겁 먹다,"The men squat in a circle and wolf down the fish, monkey and corn.","남자들은 웅크려 앉아 생선, 옥수수를 허겁지겁 먹어치웠다.",  'Wolf' (늑대) + Down (아래로). 늑대처럼 순식간에 허겁지겁 먹어치우다.
+46,46,과식한,"Because the market is glutted, all buyers can demand purity standards.",시장이 과잉 공급되었기 때문에 모든 구매자는 순도 기준을 요구할 수 있다.,  'Glut' = Lot. 많이 먹거나 채워서 넘치는.
+47,47,"배가 부른, 팽창한",I felt bloated from eating too much.,너무 많이 먹어서 배가 불렀다(팽만감을 느꼈다).,  'Bloated' = Ballooned. 풍선처럼 배가 부풀어 오르다.
+48,48,"잔뜩 먹은, 충혈된",The jagged veins were engorged with blood.,톱니 모양의 정맥은 피로 가득 차 있었다(충혈되었다).,  'En' (안에) + Gorge (목구멍). 목구멍까지 가득 채워진.
+49,49,"폭식, 대식","In his harangue, the preacher condemned the sins of gluttony and sloth.",설교자는 폭식과 나태의 죄를 비난했다.,  glu'TON'ny. (먹는 양이) 톤만큼 될 정도의 폭식.
+50,50,"게걸스러움, 탐욕",One reason is the voracious world demand for timber.,한 가지 이유는 목재에 대한 세계의 게걸스러운 탐욕 때문이다.,  'Voracious' (게걸스러운)의 명사형.
+51,51,"과도한 탐닉, 과식","If your face is looking fuller after overindulgence in food and drinks, these tips can help.","음식과 음료를 과도하게 탐닉한 후 얼굴이 부어 보인다면, 이 팁이 도움이 될 수 있다.",  'Over' (과도하게) + Indulge (탐닉). 과도한 탐닉.
+52,52,무절제,She had written back regretting her earlier intemperance.,그녀는 이전에 보였던 무절제를 후회하며 답장을 보냈다.,  'In' (부정) + Temperance (절제). 절제가 없는.
+53,53,"과소비, 과식",Drought and human overconsumption of water from the rivers are the main problem.,가뭄과 강물의 인간에 의한 **과소비(과도한 섭취)**가 주요 문제이다.,"  'Over' (과도하게) + Consumption (소비, 섭취). 과도한 소비/섭취."
+54,54,"소비, 탐닉",The jet's high fuel consumption makes it expensive to operate.,그 제트기의 높은 연료 소비량은 운항 비용을 비싸게 만든다.,  'Consume' (소비하다)의 명사형.
+55,55,"집어삼키는, 탐욕스러운","Hatred warps the mind, ravages the heart and devours the soul.","증오는 마음을 왜곡하고, 영혼을 집어삼킨다.",  'Devour' (게걸스럽게 먹다)의 현재 분사형/형용사형.
+56,56,"집어삼키는, 소비적인","The yoga school consumed her life, her family said.",요가 학교가 그녀의 삶을 집어삼켰다고 그녀의 가족이 말했다.,  'Consume' (소비하다)의 현재 분사형/형용사형.
+57,57,"포식성의, 약탈하는",a predacious kind of animal--the early geological gangster,포식성의 일종의 동물 - 초기 지질 시대의 갱스터.,  'Predator' + Acquisitive. 포식자처럼 소유욕이 강한.
