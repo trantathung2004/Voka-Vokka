@@ -1,28 +1,13 @@
 import os
 from typing import Dict, Any
 
-from google import genai
+import ollama
 
-_client: genai.Client | None = None
-_MODEL_NAME = os.getenv("GEMINI_HINT_MODEL", "gemini-2.5-flash")
+_MODEL_NAME = os.getenv("OLLAMA_MODEL", "llama3")
 
 
 class HintGenerationError(Exception):
     """Raised when the hint generation pipeline fails."""
-
-
-def _get_client() -> genai.Client:
-    """Lazy-init the Gemini client so tests without a key do not break imports."""
-    global _client
-    if _client is not None:
-        return _client
-
-    api_key = os.getenv("GEMINI_API_KEY") or os.getenv("GOOGLE_API_KEY")
-    if not api_key:
-        raise HintGenerationError("GEMINI_API_KEY is not configured.")
-
-    _client = genai.Client(api_key=api_key)
-    return _client
 
 
 def _build_prompt(word_context: Dict[str, Any]) -> str:
@@ -37,7 +22,7 @@ def _build_prompt(word_context: Dict[str, Any]) -> str:
     return f"""
 You are a helpful bilingual vocabulary tutor. The student only saw the Korean meaning
 and wants an English hint to recall the word. Provide ONE short, encouraging hint
-in Korean that nudges them toward the answer without revealing the spelling.
+in Korean that nudges them toward the answer WITHOUT REVEALING THE SPELLING.
 
 Word data (do not reveal directly):
 - English spelling: {spelling}
@@ -55,23 +40,30 @@ Constraints:
 
 
 def generate_hint(word_context: Dict[str, Any]) -> str:
-    """Create an AI-generated hint using Gemini + the supplied RAG context."""
+    """Create an AI-generated hint using Ollama + the supplied RAG context."""
     if not word_context:
         raise HintGenerationError("word_context is required for hint generation.")
 
     prompt = _build_prompt(word_context)
 
     try:
-        client = _get_client()
-        response = client.models.generate_content(
+        response = ollama.chat(
             model=_MODEL_NAME,
-            contents=prompt,
+            messages=[
+                {
+                    "role": "user",
+                    "content": prompt,
+                },
+            ],
         )
-    except Exception as exc:  # pragma: no cover - upstream client errors
-        raise HintGenerationError(f"Gemini API error: {exc}") from exc
+    except Exception as exc:
+        raise HintGenerationError(f"Ollama API error: {exc}") from exc
 
-    text = getattr(response, "text", None)
+    # Ollama response structure: {'model': '...', 'created_at': '...', 'message': {'role': 'assistant', 'content': '...'}, ...}
+    message = response.get("message", {})
+    text = message.get("content", "")
+
     if not text:
-        raise HintGenerationError("Gemini API returned an empty response.")
+        raise HintGenerationError("Ollama API returned an empty response.")
 
     return text.strip()
